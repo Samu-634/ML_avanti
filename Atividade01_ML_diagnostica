@@ -1,0 +1,53 @@
+1. Explique, com suas palavras, o que é machine learning?
+
+Entendo que Machine Learning, ou aprendizado de máquina se refere à área e Ciência de Dados na qual, máquinas (computadores)
+são programados com algoritmos que tornam as máquinas capazes de aprender, fazer previsões e tomar decisões. Esse processo
+é desenvolvido com base em programação, estatística e algebra linear. Além disso, a máquina "aprende" baseado em bases de dados.
+Isso pode ocorrer de forma supervisionada, não supervisionada e por reforço.
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e
+conjunto de teste em machine learning.
+
+Para o aprendizado de máquina, é necessário inserir conjuntos de dados no computador. Como a ideia é a identificação de padrões por parte da máquina,
+torna-se necessário fazer um treinamento com a base de dados. Nesse treinamento são realizados diversos cálculos, para que ocorra o aprendizado.
+Na parte de teste, utiliza-se os dados que não foram utilizados no treinamento, a fim de verificar a performance do algoritmo. É preciso ter em mente
+que os dados devem ser separados previamente, por meio de códigos, que determinam qual porcentagem dos dados devem ir para o treinamento e para o código.
+Do contrário, se usarmos todos os dados para o treinamento, a máquina pode simplesmente "decorar" os dados e as respostas, e com isso impossibilitar 
+determinar a acurácia do modelo.
+O conjunto de dados para validação é usado para verificar a eficiência da metodologia aplicada no modelo. Isso se torna necessário pois,
+diferentes abordagens, seja em termos de bibliotecas e de programação, normalmente vão fornecer resultados diferentes. Como consequência,
+a validação é muito útil para verificar a acurácia e o erro do modelo de aprendizado proposto.
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados
+de treinamento.
+
+A resposta é: depende. Isso depende bastante da quantidade de dados ausentes e se esses dados vão causar grande impacto no meu modelo.
+Em certos casos, em que determinados dados ausentes representam uma parcela ínfima do modelo, talvez esses possam ser removidos.
+Em outros casos, mais comum, torna-se necessário usar o método "fillna(valor, inplace = True)". O valor que vai ser usado para preencher os dados
+ausentes, podem ser a média, moda ou mediana, a depender do tamanho do dataset e da quantidade de outliers.
+
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o
+desempenho de um modelo preditivo?
+
+Pelo que eu me lembro, matriz de confusão é util para verificar situações como na área da saúde. Nessa área (principalmente do diagnóstico médico)
+é de fundamental importância estimar a performance do modelo com relação as suas classificações. Um exemplo disso são os resultados de "falsos positivos" e
+de "falsos negativos".
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura,
+entre outras) você acha mais interessante aplicar algoritmos de machine
+learning?
+
+Na área da sáude.
+
+
+
+
+
+
+
+
+
+
+
+
