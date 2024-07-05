@@ -1,3 +1,7 @@
+Avaliação Diagnóstica
+
+QUESTÕES
+
 1. Explique, com suas palavras, o que é machine learning?
 
 Entendo que Machine Learning, ou aprendizado de máquina se refere à área e Ciência de Dados na qual, máquinas (computadores)
@@ -26,7 +30,6 @@ Em certos casos, em que determinados dados ausentes representam uma parcela ínf
 Em outros casos, mais comum, torna-se necessário usar o método "fillna(valor, inplace = True)". O valor que vai ser usado para preencher os dados
 ausentes, podem ser a média, moda ou mediana, a depender do tamanho do dataset e da quantidade de outliers.
 
-
 4. O que é uma matriz de confusão e como ela é usada para avaliar o
 desempenho de um modelo preditivo?
 
@@ -39,6 +42,7 @@ entre outras) você acha mais interessante aplicar algoritmos de machine
 learning?
 
 Na área da sáude.
+
 
 
 
